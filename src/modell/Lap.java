@@ -1,4 +1,4 @@
-package kartyatrukkkonzolon;
+package modell;
 
 public class Lap {
     
@@ -8,7 +8,7 @@ public class Lap {
         this.leiras=leiras;
     }
     
-    String getLeiras(){
+    public String getLeiras(){
         return leiras;
     }
 }
